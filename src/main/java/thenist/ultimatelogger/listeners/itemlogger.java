@@ -36,7 +36,7 @@ public class itemlogger implements Listener {
     }
     @EventHandler
     public void onPlayerItemMove(final InventoryDragEvent e){
-
+        //TODO:Implement Player Inventory logging
     }
     @EventHandler
     public void onPlayerItemPickup(final EntityPickupItemEvent e){

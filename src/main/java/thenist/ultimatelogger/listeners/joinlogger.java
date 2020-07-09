@@ -1,5 +1,4 @@
 package thenist.ultimatelogger.listeners;
-import org.bukkit.event.inventory.InventoryMoveItemEvent;
 import thenist.ultimatelogger.utils;
 import thenist.ultimatelogger.Ultimatelogger;
 import java.nio.file.Files;
