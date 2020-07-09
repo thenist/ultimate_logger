@@ -1,0 +1,6 @@
+name: Ultimate_logger
+version: ${project.version}
+main: thenist.ultimatelogger.Ultimatelogger
+api-version: 1.15
+authors: [thenist]
+description: Ultimate logger for minecraft
