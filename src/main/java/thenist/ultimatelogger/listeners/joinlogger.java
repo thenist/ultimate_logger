@@ -23,8 +23,7 @@ public class joinlogger implements Listener {
             try{
                 Files.createDirectory(Paths.get(Datafolder+"/"+player.getUniqueId()));
             }catch(java.io.IOException ex){
-                logger.warning("IO Error Occurred while creating log for player Kicking...");
-                player.kickPlayer("Sorry! Error Has Occurred!");
+                utils.ioerrorkick(player);
             }
         }
         try{
